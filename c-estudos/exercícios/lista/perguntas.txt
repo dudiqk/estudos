@@ -1,0 +1,150 @@
+Unidade 5
+Pergunta - Exercício de Fixação
+Uma empresa contratou uma nova colaboradora para atuar no setor de marketing. No primeiro dia, ela recebeu acesso ao e-mail corporativo, à plataforma de campanhas e ao repositório de arquivos da equipe. Após seis meses, foi transferida para a área comercial, mas seus acessos antigos não foram removidos.
+
+Em relação à gestão do ciclo de vida dos acessos, qual das seguintes práticas é a mais adequada?
+
+Questão 1Resposta
+
+a.
+Manter todos os acessos antigos para facilitar o trabalho caso a colaboradora precise consultar informações do setor anterior.
+
+b.
+Criar uma nova conta para cada setor em que a colaboradora atuar, sem remover as contas anteriores.
+
+c.
+Permitir que a própria colaboradora escolha quais acessos deseja manter após a mudança de função.
+
+d.
+Revisar os acessos sempre que houver admissão, mudança de função ou desligamento, ajustando as permissões conforme a necessidade atual do usuário.
+
+e.
+Remover todos os acessos da colaboradora, mesmo os necessários para a nova função, até que ocorra uma auditoria anual.      
+
+Perguntas avaliativas - Unidade 5
+
+Um funcionário saiu da empresa, mas sua conta permaneceu ativa por algumas semanas. Durante esse período, a conta ainda tinha acesso ao e-mail, a documentos internos e ao sistema de chamados.
+
+Qual medida representa uma prática adequada de IAM nesse caso?
+
+Questão 1Resposta
+
+a.
+Desativar ou remover os acessos do colaborador no momento do desligamento, registrando a ação realizada.
+
+b.
+Compartilhar a senha do ex-colaborador com o gestor para que ele continue acessando os arquivos.
+
+c.
+Alterar apenas o nome da conta para o nome de outro colaborador.
+
+d.
+Esperar a revisão anual de acessos para decidir se a conta será removida.
+
+e.
+Manter a conta ativa por tempo indeterminado, pois pode ser útil para consultar mensagens antigas.  
+
+Uma empresa permite que funcionários usem senhas simples, como datas de nascimento ou combinações previsíveis. Alguns usuários também reutilizam a mesma senha em sistemas corporativos e pessoais. A equipe de segurança deseja melhorar essa prática.
+
+Sobre políticas de senha e comportamento do usuário, indique quais afirmações estão corretas:
+
+I. Senhas simples, previsíveis ou reutilizadas aumentam o risco de acesso indevido.
+
+II. Políticas de senha devem orientar o uso seguro, incluindo tamanho, complexidade e bloqueio após tentativas inválidas.
+
+III. O compartilhamento de senha entre colegas é aceitável quando há urgência no atendimento de uma demanda.
+
+Questão 2Resposta
+
+a.
+I, II e III estão corretas.
+
+b.
+Somente II está correta.
+
+c.
+II e III estão corretas.
+
+d.
+I e II estão corretas
+
+e.
+I e III estão corretas.    
+
+UNIDADE 6
+
+Uma empresa de saúde descobre que um ex-colaborador do departamento de TI, desligado há três meses, ainda conseguia acessar o sistema de prontuários eletrônicos de pacientes. Nesse período, o ex-funcionário consultou e exportou dados pessoais e médicos de centenas de pacientes. A investigação revelou que seu usuário nunca foi desativado e que ele possuía permissões administrativas muito além das necessárias para suas funções originais.
+
+Sobre ameaças internas (insiders) e controle de acesso, indique quais das afirmações estão corretas:
+
+I.O princípio do privilégio mínimo (least privilege) determina que cada usuário ou sistema deve ter acesso apenas aos recursos estritamente necessários para o desempenho de suas funções, reduzindo o impacto potencial de comprometimentos internos.
+
+II. A ameaça interna é considerada de baixo risco em comparação com ataques externos, pois colaboradores possuem contrato de trabalho e responsabilidade legal, o que naturalmente inibe ações maliciosas.
+
+III. A revogação imediata de acessos no momento do desligamento de colaboradores é uma medida de controle essencial que integra o ciclo de vida do gerenciamento de identidades e acessos (IAM).
+
+Questão 1Resposta
+
+a.
+I e III estão corretas.
+
+b.
+II e III estão corretas.
+
+c.
+Somente III está correta.
+
+d.
+I, II e III estão corretas.
+
+e.
+I e II estão corretas.    
+
+Perguntas avaliativas - Unidade 6
+A equipe de threat hunting de uma empresa identifica, na análise de logs de DNS, um volume anormal de consultas a subdomínios aleatórios de um domínio recém-registrado, geradas por uma única estação de trabalho. As consultas ocorrem em intervalos regulares, mesmo fora do horário comercial, e cada resposta retorna dados codificados em base64 aparentemente sem sentido. O antivírus da estação não registra nenhum alerta. A equipe suspeita de comunicação C2 encoberta.
+
+Sobre canais de Comando e Controle (C2) e técnicas de evasão, indique quais das afirmações estão corretas:
+
+I. O uso de protocolos legítimos como DNS, HTTP e HTTPS para comunicação C2 dificulta a detecção por ferramentas de inspeção de tráfego, pois o tráfego malicioso se mescla ao tráfego normal da organização.
+
+II. O DNS tunneling é uma técnica que encapsula dados em consultas e respostas DNS, aproveitando o fato de que esse protocolo raramente é bloqueado por firewalls e frequentemente não é inspecionado com profundidade por soluções de segurança.
+
+III. Sistemas de detecção baseados exclusivamente em assinaturas de malware conhecidas são suficientes para identificar comunicações C2 que utilizam canais não convencionais e técnicas de evasão como beaconing em intervalos irregulares.
+
+Questão 1Resposta
+
+a.
+I e III estão corretas.
+
+b.
+I, II e III estão corretas.
+
+c.
+Somente II está correta.
+
+d.
+I e II estão corretas.
+
+e.
+II e III estão corretas  
+
+O novo CISO de uma empresa de médio porte do setor de logística precisa estruturar o programa de segurança da informação do zero. A empresa nunca adotou um framework formal, não possui inventário completo de ativos, não tem processo de gestão de vulnerabilidades e nunca realizou um exercício de resposta a incidentes. O conselho de administração solicita um modelo que organize as iniciativas de segurança em funções compreensíveis para a alta gestão e que permita medir a evolução da maturidade ao longo do tempo.
+
+Assinale a alternativa que descreve corretamente o papel dos frameworks de governança de segurança e a aplicação mais adequada ao contexto apresentado:
+
+Questão 2Resposta
+
+a.
+CIS Controls é inadequado para empresas de médio porte, pois foi desenvolvido exclusivamente para organizações governamentais e militares dos Estados Unidos.
+
+b.
+A adoção de qualquer framework de governança requer certificação prévia da equipe de TI e investimento mínimo de R$ 1 milhão, tornando-o inviável para empresas de médio porte.
+
+c.
+A ISO/IEC 27001 é o único framework válido para empresas brasileiras, pois é a única norma reconhecida pela ANPD para fins de conformidade com a LGPD.
+
+d.
+O CISO deve adquirir imediatamente um SIEM e um EDR, pois frameworks de governança são apenas documentação burocrática sem impacto real na redução de riscos.
+
+e.
+O NIST Cybersecurity Framework organiza o programa de segurança em cinco funções: Identificar, Proteger, Detectar, Responder e Recuperar e oferece linguagem acessível para comunicação com a alta administração, além de permitir avaliação de maturidade incremental, sendo especialmente adequado para organizações em estágio inicial de estruturação.                        
